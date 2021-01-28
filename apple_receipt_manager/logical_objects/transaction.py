@@ -1,5 +1,5 @@
 import datetime
-from apple_receipt_manager.apple_store_object import AppleStoreBaseObject
+from apple_receipt_manager.apple_store_base_object import AppleStoreBaseObject
 
 IN_APP_OWNERSHIP_TYPE = {
     'FAMILY_SHARED': 'The transaction belongs to a family member who benefits from service.',

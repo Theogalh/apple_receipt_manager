@@ -1,7 +1,6 @@
-import logging
-from apple_receipt_manager.receipt import Receipt
-from apple_receipt_manager.pending_renewal import PendingRenewal
-from apple_receipt_manager.apple_store_object import AppleStoreBaseObject
+from apple_receipt_manager.logical_objects.receipt import Receipt
+from apple_receipt_manager.logical_objects.pending_renewal import PendingRenewal
+from apple_receipt_manager.apple_store_base_object import AppleStoreBaseObject
 
 APPLE_API_STATUS_INFO = {
     21000: 'The request to the App Store was not made using the HTTP POST request method.',

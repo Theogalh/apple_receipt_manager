@@ -1,8 +1,8 @@
 import requests
 
 from apple_receipt_manager.exceptions import AppleManagerStatusError, AppleManagerInternalError
-from apple_receipt_manager.apple_response import AppleResponse, APPLE_API_STATUS_INFO
-from apple_receipt_manager.apple_store_object import AppleStoreBaseObject
+from apple_receipt_manager.logical_objects.apple_response import AppleResponse, APPLE_API_STATUS_INFO
+from apple_receipt_manager.apple_store_base_object import AppleStoreBaseObject
 
 
 class AppleReceiptManager(AppleStoreBaseObject):

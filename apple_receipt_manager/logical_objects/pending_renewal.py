@@ -1,5 +1,5 @@
 import datetime
-from apple_receipt_manager.apple_store_object import AppleStoreBaseObject
+from apple_receipt_manager.apple_store_base_object import AppleStoreBaseObject
 
 BILLING_RETRIEVAL_PERIOD_INFO = {
     '1': 'The App Store is attempting to renew the subscription.',

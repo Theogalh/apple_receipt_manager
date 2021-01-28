@@ -1,6 +1,6 @@
 import datetime
-from apple_receipt_manager.transaction import Transaction
-from apple_receipt_manager.apple_store_object import AppleStoreBaseObject
+from apple_receipt_manager.logical_objects.transaction import Transaction
+from apple_receipt_manager.apple_store_base_object import AppleStoreBaseObject
 
 RECEIPT_TYPES = [
     'Production',
